@@ -61,3 +61,5 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 * Use Pymongo for CRUD applications for your database. For this homework, you can simply overwrite the existing document each time the `/scrape` url is visited and new data is obtained.
 
 * Use Bootstrap to structure your HTML template.
+
+*  There’s also a simpler way to put the table in HTML: {{mars.mars_facts|safe}} -- mars is my dictionary with all the scraped data, and mars_facts is the “html” table created from scraping. All you need to do in the HTML is: {{mars.mars_facts|safe}} That will read in the HTML from mars_facts and interpret the HTML tags and display the table. (Nice to learn this)
