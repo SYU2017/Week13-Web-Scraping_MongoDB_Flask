@@ -62,4 +62,18 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 * Use Bootstrap to structure your HTML template.
 
-*  There’s also a simpler way to put the table in HTML: {{mars.mars_facts|safe}} -- mars is my dictionary with all the scraped data, and mars_facts is the “html” table created from scraping. All you need to do in the HTML is: {{mars.mars_facts|safe}} That will read in the HTML from mars_facts and interpret the HTML tags and display the table. (Nice to learn this)
+*  "Jinja2 template variable if None Object set a default value" following is one of the solutions learned from Stackoverflow:
+    
+       Use the none builtin function (http://jinja.pocoo.org/docs/templates/#none):
+
+             {% if mars is not None %}   
+             {{ mars.mars_hemisphere[i].image_url }}
+             {% else %}
+              NONE
+             {%endif %}
+             or   {{ mars.mars_hemisphere[i].image_url if mars != None else 'NONE' }}
+             or if you need an empty string:
+
+              {{ mars.mars_hemisphere[i].image_url  if mars != None }}
+
+*  There’s also a simpler way to put the table in HTML: {{mars.mars_facts|safe}} -- mars is my dictionary with all the scraped data, and mars_facts is the “html” table created from scraping. All you need to do in the HTML is: {{mars.mars_facts|safe}} That will read in the HTML from mars_facts and interpret the HTML tags and display the table. 
