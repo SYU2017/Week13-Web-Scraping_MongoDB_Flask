@@ -56,7 +56,9 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 ![picture](Image/mission_to_mars.png)
 
+
 ![picture](Image/weatherMars.png)
+
 
 ![picture](Image/imageMars.png)
 
