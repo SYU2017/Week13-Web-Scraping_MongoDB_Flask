@@ -4,6 +4,17 @@
 
 Build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
 
+
+![picture](Image/mission_to_mars.png)
+
+
+![picture](Image/weatherMars.png)
+
+
+![picture](Image/imageMars.png)
+
+
+
 ## Step 1 - Scraping----`mission_to_mars.ipynb` 
 
 Complete  initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
@@ -54,13 +65,6 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 * Create a template HTML file called `index.html` that will take the mars data dictionary and display all of the data in the appropriate HTML elements. 
 
-![picture](Image/mission_to_mars.png)
-
-
-![picture](Image/weatherMars.png)
-
-
-![picture](Image/imageMars.png)
 
 ## Hints
 
