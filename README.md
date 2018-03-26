@@ -4,7 +4,7 @@
 
 ## Build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. 
 
-### Flask API data visualization: Run "python App.py" using Conda commend line.
+### Flask API data visualization: Run "python app.py" using Conda commend line.
 http://127.0.0.1:5000/
 
 
