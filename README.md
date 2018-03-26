@@ -2,7 +2,10 @@
  
  Mission to Mars
 
-Build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
+##Build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. 
+
+###Flask API data visualization: Run "python App.py" in commend line.
+http://127.0.0.1:5000/
 
 
 ![picture](Image/mission_to_mars.png)
@@ -13,6 +16,7 @@ Build a web application that scrapes various websites for data related to the Mi
 
 ![picture](Image/imageMars.png)
 
+The following outlines what you need to do.
 
 
 ## Step 1 - Scraping----`mission_to_mars.ipynb` 
