@@ -22,7 +22,7 @@ ipywidgets==7.0.0
 
 itsdangerous==0.24
 
-Jinja2==2.9.6
+Jinja2==2.11.3
 jsonlines==1.2.0
 jsonschema==2.6.0
 jsontableschema==0.10.1
